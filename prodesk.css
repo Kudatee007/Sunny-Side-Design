@@ -1,0 +1,412 @@
+.navv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* position: absolute;
+    top: 0; */
+    padding: 20px;
+    
+}
+.listt{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+}
+.navv>ul>li>a{
+    text-decoration: none;
+    color: white;
+
+}
+.imgg>img{
+     width: 100%;
+    
+     
+}
+.containerr{
+   /* position: relative; */
+   background-image: url(./favicon/images/image-header.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 800px;
+}
+.create{
+    /* position: absolute;
+    bottom: 63%;
+    left: 27%; */
+    font-size: 70px;
+    color: white;
+    padding-left: 27%;
+    padding-top: 5%;
+}
+.sunny{
+    color: white;
+}
+.cont{
+    width: 110px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    border-style: none;
+}
+.graphic{
+    background-image: url(./img/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 600px;
+    padding: 15%;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.photo{
+    background-image: url(./img/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 600px;
+    padding: 15%;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+.trans{
+    display: flex;
+}
+.trans1>h1{
+    font-weight: bold;
+}
+.trans>img{
+    width: 50%;
+}
+.trans1{
+    width: 50%;
+    text-align: center;
+    padding: 15%;
+}
+.stand{
+    display: flex;
+}
+.stand1>h1{
+    font-weight: bold;
+}
+.stand>img{
+    width: 50%;
+}
+.stand1{
+    width: 50%;
+    text-align: center;
+    padding: 15%;
+}
+.graPho{
+    display: flex;
+}
+.trans1>h5{
+border: 1px solid white;
+background-color: yellow;
+width: 50%;
+height: 5%;
+border-radius: 100px;
+}
+.stand1>h5{
+    border: 1px solid white;
+    background-color: red;
+    width: 50%;
+    height: 5%;
+    border-radius: 100px;
+}
+.gridd1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.biig{
+    text-align: center;
+    margin: 9%;
+}
+.biig>h2{
+    margin-block-start: 7%;
+    margin-block-end: 7%;
+    color: rgb(157, 157, 157);
+}
+.rounded-circle{
+    width: 100px;
+    margin-block-end: 9%;
+}
+.ppp{
+    font-weight: 250;
+    margin-block-end: 10%;
+}
+.milky{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.milky>img{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    justify-content: space-around;
+    background-color: aquamarine;
+    padding: 5%;
+}
+.aboutServices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    list-style: none;
+    padding-left: 37%;
+    padding-right: 37%;
+    margin-block-end: 4%;
+    
+}
+.aboutServices>li>a{
+    color: black;
+    text-decoration: none;
+}
+footer>h2{
+    margin-block-end: 4%;
+}
+.favicon>img{
+    height: 30px;
+}
+@media (max-width: 1200px) {
+    .containerr{
+        height: 600px;
+    }
+    .create{
+        font-size: 60px;
+    }
+}
+@media (max-width: 1000px) {
+    .containerr{
+        height: 500px;
+    }
+
+    .listt{
+          width: 40%;
+    }
+    .create{
+        font-size: 55px;
+    }
+}
+@media (max-width: 800px) {
+    .listt{
+        width: 45%;
+  }
+  .containerr{
+    height: 400px;
+}
+}
+@media (max-width: 800px) {
+    .listt{
+        width: 55%;
+  }
+  .create{
+    font-size: 37px;
+    padding-top: 3%;
+}
+.rounded-circle{
+    width: 70px;
+}
+.graphic{
+    padding-top: 38.5%;
+}
+
+.photo{
+    padding-top: 43%;
+}
+.aboutServices{
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-block-end: 4%;
+    
+}
+}
+@media (max-width: 700px) {
+    .photo{
+        padding-top: 50%;
+    }
+}
+@media (max-width: 630px) {
+    .photo{
+        padding-top: 50%;
+    }
+    .trans{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .stand{
+        display: flex;
+        flex-direction: column;
+    }
+    .graPho{
+        display: flex;
+        flex-direction: column;
+    }
+    .bigii{
+        width: 100%;
+    }
+    .trans>img{
+        width: 100%;
+        height: 390px;
+    }
+    .trans1{
+        width: 100%;
+        height: 390px;
+    }
+    .stand>img{
+        width: 100%;
+        height: 390px;
+    }
+    .stand1{
+        width: 100%;
+        height: 390px;
+    }
+    .graphic{
+        width: 100%;
+        height: 390px;
+    }
+    .photo{
+        width: 100%;
+        height: 390px;
+    }
+    .containerr{
+        height: 350px;
+    }
+    .listt{
+        width: 62%;
+  }
+  .trans1>h5{
+    width: 35%;
+    height: 7.5%;
+    }
+    .stand1>h5{
+        width: 35%;
+        height: 7.5%;
+        
+    }
+    .graphic{
+           padding-top: 8%;
+    }
+    .photo{
+        padding-top: 33%;
+    }
+}
+@media (max-width: 570px) {
+    .listt{
+        display: none;
+    }
+    .containerr{
+        height: 300px;
+    }
+    .create{
+        font-size: 30px;
+        padding-top: 2%;
+    }
+}
+@media (max-width: 500px) {
+    .containerr{
+        height: 250px;
+    }
+    .create{
+        font-size: 30px;
+        padding-top: 2%;
+    }
+    .trans>img{
+    
+        height: 300px;
+    }
+    .trans1{
+        height: 300px;
+    }
+    .stand>img{
+        height: 300px;
+    }
+    .stand1{
+        height: 300px;
+    }
+    .graphic{
+        height: 300px;
+    }
+    .photo{
+        height: 300px;
+    }
+    .trans1>h5{
+         width: 12ch;
+         height: 9%;
+    }
+    .stand1>h5{
+        width: 12ch;
+         height: 9%;
+        }
+   .stand1{
+            margin-block-end: 8%;
+    }
+}
+@media (max-width: 420px) {
+    .containerr{
+        height: 230px;
+    }
+    .create{
+        font-size: 22px;
+        padding-top: 0;
+    }
+    .gridd1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+    .milky{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .milky>img{
+        height: 400px;
+    }
+  
+
+}
+@media (max-width: 375px) {
+    .containerr{
+        height: 200px;
+    }
+    .create{
+        font-size: 18px;
+        padding-top: 0;
+    }
+    .trans{
+        margin-block-end: 8%;
+    }
+    .trans1>h5{
+        width: 11ch;
+        height: 7%;
+   }
+   .stand1>h5{
+       width: 11ch;
+        height: 7%;
+       }
+       .milky>img{
+        height: 350px;
+    }
+}
+@media (max-width: 330px) {
+    .containerr{
+        height: 180px;
+    }
+    .create{
+        font-size: 18px;
+        padding-top: 0;
+
+    }
+}
+
+
+
+
+
+
+
