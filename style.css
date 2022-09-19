@@ -25,7 +25,7 @@
 }
 .containerr{
    /* position: relative; */
-   background-image: url(./favicon/images/image-header.jpg);
+   background-image: url(./images/image-header.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    width: 100%;
