@@ -297,9 +297,10 @@ footer>h2{
     }
 }
 @media (max-width: 570px) {
-    .listt{
+    .cont{
         display: none;
     }
+
     .containerr{
         height: 300px;
     }
